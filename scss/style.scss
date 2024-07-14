@@ -1,0 +1,35 @@
+@import './base/reset';
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,regular,500&display=swap');
+@import './utils/variables';
+@import './components/title';
+@import './components/button';
+
+@import './layout/header';
+
+
+
+body {
+    color: var(--secondary-color);
+    font-family: 'Poppins';
+    font-weight: 300;
+    background-color: var(--body-color);
+}
+
+[class*='__container'] {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.main {
+    flex: 1 1 auto;
+}

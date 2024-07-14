@@ -1,0 +1,23 @@
+.button {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.57;
+    letter-spacing: 2px;
+    padding: 16px 24px;
+    border-radius: 50px;
+    background: var(--brand-color);
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease 0s;
+
+    &:hover {
+        background-color: #294f78;
+    }
+}
+
+.button--dark {
+    background: rgba(129, 129, 139, 0.20);
+    padding: 16px 31px;
+}
