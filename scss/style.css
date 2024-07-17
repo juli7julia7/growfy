@@ -778,6 +778,72 @@ body {
   max-width: 100%;
 }
 
+.advantages {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+@media (max-width: 991.98px) {
+  .advantages {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 767.98px) {
+  .advantages {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.advantages__container {
+  display: flex;
+  gap: 32px;
+}
+@media (max-width: 991.98px) {
+  .advantages__container {
+    flex-direction: column;
+  }
+}
+.advantages__content {
+  flex: 0 1 60%;
+}
+.advantages__title {
+  display: none;
+}
+.advantages__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+@media (max-width: 767.98px) {
+  .advantages__list {
+    grid-template-columns: auto;
+  }
+}
+.advantages__item {
+  border-radius: 30px;
+  background: rgb(25, 25, 29);
+  padding: 40px;
+}
+.advantages__media {
+  flex: 0 1 40%;
+}
+@media (max-width: 1100.98px) {
+  .advantages__media {
+    align-self: center;
+  }
+}
+
+.item-advantages__title {
+  color: var(--primary-color);
+  font-size: 51.2px;
+  font-weight: 500;
+  line-height: 1.19;
+  margin-bottom: 32px;
+}
+.media-advantages__image > img {
+  max-width: 100%;
+}
+
 body {
   color: var(--secondary-color);
   font-family: "Poppins";
