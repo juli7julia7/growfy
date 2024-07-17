@@ -1,0 +1,140 @@
+.services {
+    padding-bottom: 90px;
+
+    @media(max-width:991.98px) {
+        padding-bottom: 70px;
+    }
+
+    @media(max-width:767.98px) {
+        padding-bottom: 30px;
+    }
+
+    &__container {
+        display: flex;
+        gap: 104px;
+
+        @media(max-width:1100.98px) {
+            gap: 50px;
+        }
+
+        @media(max-width:991.98px) {
+            flex-direction: column;
+        }
+    }
+
+    &__content {
+        flex: 0 1 40%;
+
+        @media(min-width:991.98px) {
+            align-self: center;
+        }
+
+    }
+
+    &__subtitle {
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        margin-bottom: 33px;
+
+        @media(min-width:991.98px) {
+            max-width: 491px;
+        }
+    }
+
+    &__button {
+        @media(max-width:479.98px){
+            width: 100%;
+        }
+    }
+
+    &__info {
+        flex: 0 1 60%;
+    }
+}
+
+.content-services {}
+
+.info-services {
+
+    &__list {
+        display: flex;
+        gap: 32px;
+
+        @media(max-width:590.98px) {
+            flex-direction: column;
+        }
+    }
+
+    &__body {
+        display: grid;
+        gap: 32px;
+
+        &:nth-child(1) {
+            @media(min-width:590.98px) {
+                padding-top: 48px;
+            }
+        }
+
+        &:nth-child(2) {
+            @media(min-width:590.98px) {
+                padding-bottom: 48px;
+            }
+        }
+
+    }
+
+    &__item {}
+}
+
+.item-services {
+    border-radius: 30px;
+    background: rgb(25, 25, 29);
+    padding: 50px 25px 65px 25px;
+
+    @media(max-width:767.98px) {
+        padding: 45px 20px 55px 20px;
+    }
+
+    &__icon {
+        width: 75px;
+        height: 75px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+
+        &:nth-child(1) {
+            background-color: rgb(24, 32, 43);
+        }
+
+        &:nth-child(2) {
+            background-color: rgb(38, 36, 32);
+        }
+
+        &:nth-child(3) {
+            background-color: rgb(39, 30, 30);
+        }
+
+        &:nth-child(3) {
+            background-color: rgb(29, 36, 35);
+        }
+    }
+
+    &__title {
+        color: var(--primary-color);
+        font-size: 19.2px;
+        font-weight: 400;
+        line-height: 1.36;
+        margin-bottom: 10px;
+    }
+
+    &__text {}
+}

@@ -29,6 +29,16 @@
     &__title {
         margin-bottom: 28px;
         animation: title 3s 1 ease;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: -16px;
+            left: -30px;
+            background: url(./img/hero/decor.svg) 0 0 / 100% no-repeat;
+            width: 122px;
+            height: 122px;
+        }
     }
     @keyframes title {
         0%{
