@@ -204,8 +204,20 @@ body {
     height: 100%;
     background-color: var(--body-color);
     overflow: auto;
-    z-index: 2;
+    z-index: 10;
     padding: 160px 15px 30px 15px;
+    transition: left 0.3s ease 0s;
+  }
+}
+@media (max-width: 767.98px) {
+  .menu__body::before {
+    content: "";
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 70px;
+    background-color: var(--body-color);
+    overflow: auto;
     transition: left 0.3s ease 0s;
   }
 }
@@ -397,6 +409,7 @@ body {
   margin-bottom: 28px;
   animation: title 3s 1 ease;
   position: relative;
+  z-index: -5;
 }
 .hero__title::before {
   content: "";
@@ -742,6 +755,7 @@ body {
   padding-left: 42px;
   padding-top: 4px;
   min-height: 32px;
+  z-index: -1;
 }
 .why__item::before {
   content: "";
@@ -760,6 +774,7 @@ body {
 .media-why__image:nth-child(1) {
   align-self: flex-end;
   position: relative;
+  z-index: -1;
 }
 .media-why__image:nth-child(1)::before {
   content: "";
@@ -892,6 +907,7 @@ body {
   animation: button-testimonials 2s infinite ease;
   box-shadow: 0px 8px 40px blue;
   flex: 0 0 160px;
+  z-index: -1;
 }
 @media (max-width: 767.98px) {
   .testimonials__button {
@@ -968,6 +984,7 @@ body {
 .user-testimonials__avatar {
   flex: 0 0 68px;
   overflow: hidden;
+  z-index: -1;
 }
 .user-testimonials__avatar > img {
   max-width: 100%;
@@ -1080,6 +1097,7 @@ body {
   flex: 0 0 394px;
   position: relative;
   padding-bottom: 49.238579%;
+  z-index: 3;
   /* 194/394 */
 }
 .article-blog__img > img {
@@ -1101,6 +1119,7 @@ body {
   border-radius: 0px 10px 0px 0px;
   background: rgba(129, 129, 139, 0.5);
   padding: 10px;
+  z-index: 3;
 }
 .article-blog__body {
   padding: 26px 29px 41px 26px;

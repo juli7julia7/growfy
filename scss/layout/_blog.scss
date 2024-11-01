@@ -94,6 +94,7 @@
         flex: 0 0 394px;
         position: relative;
         padding-bottom: 49.238579%;
+        z-index: 3;
         /* 194/394 */
 
         &>img {
@@ -117,6 +118,7 @@
         border-radius: 0px 10px 0px 0px;
         background: rgba(129, 129, 139, 0.50);
         padding: 10px;
+        z-index: 3;
     }
 
     &__body {
