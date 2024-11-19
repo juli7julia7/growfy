@@ -94,7 +94,13 @@
         gap: 25px;
     }
 
-    &__item {}
+    &__item {
+        transition: all 0.7s ease 0s;
+        &:hover{
+            color: var(--brand-color);
+            cursor: pointer;
+        }
+    }
 
     &__form {
         display: flex;

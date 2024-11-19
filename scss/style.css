@@ -1325,6 +1325,13 @@ body {
   display: grid;
   gap: 25px;
 }
+.column-footer__item {
+  transition: all 0.7s ease 0s;
+}
+.column-footer__item:hover {
+  color: var(--brand-color);
+  cursor: pointer;
+}
 .column-footer__form {
   display: flex;
   gap: 16px;
