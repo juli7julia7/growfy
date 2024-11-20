@@ -204,7 +204,7 @@ body {
     height: 100%;
     background-color: var(--body-color);
     overflow: auto;
-    z-index: 10;
+    z-index: 999;
     padding: 160px 15px 30px 15px;
     transition: left 0.3s ease 0s;
   }
@@ -332,7 +332,7 @@ body {
     flex: 0 0 30px;
     height: 18px;
     position: relative;
-    z-index: 15px;
+    z-index: 999;
   }
 }
 .icon-menu > span, .icon-menu::before, .icon-menu::after {
@@ -907,7 +907,7 @@ body {
   animation: button-testimonials 2s infinite ease;
   box-shadow: 0px 8px 40px blue;
   flex: 0 0 160px;
-  z-index: -1;
+  cursor: pointer;
 }
 @media (max-width: 767.98px) {
   .testimonials__button {

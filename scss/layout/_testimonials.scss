@@ -52,7 +52,8 @@
         // transition: button-testimonials 0.3s ease 0s;
         box-shadow: 0px 8px 40px blue;
         flex: 0 0 160px;
-        z-index: -1;
+        // z-index: -1;
+        cursor: pointer;
 
         @media(max-width:767.98px) {
             flex: 0 0 0px;
