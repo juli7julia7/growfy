@@ -374,6 +374,10 @@ body {
   transform: rotate(45deg);
 }
 
+.scroll-off {
+  overflow: hidden;
+}
+
 .hero {
   padding-top: 160px;
   padding-bottom: 90px;
